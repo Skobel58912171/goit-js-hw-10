@@ -1,3 +1,5 @@
+import { Notify } from 'notiflix';
+
 const BASE_URL = 'https://restcountries.com/v3.1/name/';
 const APY_KEY = 'fields=name,capital,population,flags,languages';
 function fetchCountries(name = 'ukraine') {
